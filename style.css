@@ -1,0 +1,168 @@
+* {
+  padding: 5px;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+header h3 {
+  margin-left: -6em;
+  margin-top: -10px;
+}
+header h3 span {
+  color: rgb(243, 111, 166);
+}
+header .register-btn {
+  border-radius: 15px;
+  border-color: white;
+  background-color: white;
+  /* width: 15vw; */
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: -500px;
+  text-transform: capitalize;
+  margin-right: -100px;
+}
+.row1,
+.row2,
+.row4 {
+  display: flex;
+  padding: 20px;
+}
+.row3 {
+  display: flex;
+  gap: 200px;
+}
+@media (max-width: 900px) {
+    .row1, .row2, .row3, .row4{
+        display: flex;
+        padding: 0px;
+        gap: 0px;
+    }
+    .row1-img, .row2-img, .row4-img{
+        margin-left: -200px;
+        width: 50%;
+    }
+    
+}
+@media (max-width: 800px) {
+    .row1, .row2, .row3, .row4{
+        display: block;
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+    .row1-text, .row2-text, .row3-text, .row4-text{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        font-size: large;
+    }
+    .row3-img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .foot5{
+        margin-right: 250px;
+    }
+}
+.row1-text,
+.row2-text,
+.row3-text,
+.row4-text {
+  text-transform: capitalize;
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.row3-text {
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.row1-btn {
+  background-color: rgb(243, 111, 166);
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: rgb(243, 111, 166);
+  text-transform: capitalize;
+}
+.row1-img,
+.row2-img,
+.row3-img,
+.row4-img {
+  width: 50%;
+  margin-left: 100px;
+}
+.row3-img {
+  margin-left: -5px;
+  width: 50%;
+}
+.intro {
+  background-color: rgb(236, 243, 243);
+  /* background-size: cover; */
+}
+.row2-3-4 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.row2,
+.row3,
+.row4 {
+  border: 2px solid whitesmoke;
+  margin-top: 30px;
+}
+.row5 {
+  background-color: azure;
+  width: 25vw;
+  /* margin-left: auto;
+    margin-right: auto; */
+  margin: 0px auto;
+  /* padding-left: auto;
+    padding-right: auto; */
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+}
+.row5 button {
+  color: white;
+  background-color: rgb(243, 111, 166);
+  border-radius: 20px;
+  padding: 5px 20px;
+  text-transform: capitalize;
+  margin-left: 8.3em;
+}
+
+.foot {
+  background-color: rgb(68, 67, 67);
+  margin-top: -50px;
+  display: flex;
+  color: wheat;
+}
+.foot1 {
+  width: 30%;
+  color: white;
+}
+.foot1-1 {
+  margin-top: 0px;
+}
+
+.foot2,
+.foot3,
+.foot4 {
+  /* color: white; */
+  margin-top: 100px;
+  width: 20%;
+}
+.foot4 {
+  display: flex;
+  margin-left: 100px;
+}
+.foot5 {
+  margin-top: 300px;
+}
+
